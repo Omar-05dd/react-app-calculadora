@@ -1,0 +1,70 @@
+:root{
+    --bgPrimary: #ef4b4c;
+    --bgsecundary: #3d619b;
+    --textPrimary: #e9e9eb;
+    --textSecundary: #43506c;
+  }
+
+
+#containerCounter{
+    width: 50vw;
+    height: 60vw;
+    display: grid;
+    grid-template-rows: 80% auto;
+    text-align: center;
+    gap: 1rem 0;
+    
+
+}
+
+#containerCounter span h1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bgPrimary);
+    border-radius: 50%;
+    font-size: 7rem;
+    box-shadow: 
+    3px 2px 2px 2px #b738388f,
+    2px 2px 5px 0 #ffcece8f inset,
+    -2px -2px 5px 0 #8b2a2a8f inset;
+    ;
+   
+}
+
+#containerCounter h3{
+    font-size: 1.7rem;
+}
+
+#containerButton{
+    width: 50vw;
+    height: 10vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 .3rem;
+    outline: none;    
+}
+
+
+#containerButton button{
+    background-color: var(--bgPrimary);
+    font-size: .7rem;
+    border-radius: .6rem;
+    color: var(--textPrimary);
+    font-size: 1rem;
+    transition: .1s ease;
+    box-shadow:
+    2px 2px 2px #932e2e9f,
+    -2px -2px 2px 2px #932e2e9f inset,
+    1px 1px 2px 1px #ffcece8f inset;
+}
+
+#containerButton button:active{
+    box-shadow: -2px -2px 2px #932e2e9f,
+    2px 2px 2px 2px #932e2e9f inset,
+    -1px -1px 2px 1px #ffcece8f inset;
+    transition: .1s ease;
+
+}
